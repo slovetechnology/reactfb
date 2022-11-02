@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh !important;
+  overflow-y: auto !important;
+}
+.light {
+  background: rgb(240, 240, 240) !important;
+}
+.lightdark {
+  background-color: rgb(44, 46, 47) !important;
+}
+.hddark {
+  background-color: rgb(30, 31, 32) !important;
+}
+.formdark {
+  background-color: rgb(69, 71, 72) !important;
+}
+.dark {
+  background-color: rgb(24, 25, 27) !important;
+  /* background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important; */
+}
+.mhpagelist:hover {
+  background: rgb(212, 209, 209);
+}
+.mhpagelist2:hover {
+  background-color: rgb(32, 34, 35) !important;
+}
+.mhpagelist3:hover {
+  background-color: rgb(69, 71, 72) !important;
+}
+.text-grey {
+  color: lightgrey !important;
+}
+
+.hdlogo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+input:focus {
+  box-shadow: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+.z-index-2 {
+  z-index: 2 !important;
+}
+.regform {
+  background: rgba(255, 255, 255, 0.611);
+}
+.headed {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.hdbb {
+  border-bottom: 1px solid rgb(97, 97, 97);
+}
+.hdbr {
+  border-right: 1px solid rgb(97, 97, 97);
+}
+.hdb {
+  border: 1px solid rgb(97, 97, 97);
+}
+.hdnavlinks > a {
+  padding: 0.7rem 2.5rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  font-weight: 100;
+  color: rgb(96, 95, 95);
+}
+.bg-whitesmoke {
+  background: whitesmoke;
+}
+.bg-whitesmoke1:hover {
+  background: whitesmoke;
+}
+.hdnavlinks > a:hover {
+  color: rgb(96, 95, 95);
+}
+.hdforms::placeholder {
+  color: lightgrey !important;
+}
+.hdnav2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hdnav2 > div {
+  padding: 0.14rem 0.5rem;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.hdnav2 > div:hover {
+  color: rgb(0, 140, 255);
+}
+.firstbd {
+  height: 91.5vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28%;
+  margin-top: 8.5vh;
+  position: fixed;
+}
+.secondbd {
+  width: 42%;
+  margin: 8.5vh auto 0 auto;
+}
+.fdbody {
+  height: 91.5vh;
+  width: 72%;
+  margin-top: 8.5vh;
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  .secondbd,
+  .fdbody {
+    width: 100%;
+  }
+  .mhhdform {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+  }
+}
+.bg-darklight {
+  background: rgb(235, 235, 235) !important;
+}
+.thirdbd {
+  height: 91.5vh;
+  position: absolute;
+  top: 0;
+  margin-top: 8.5vh;
+  right: 0;
+  width: 28%;
+  position: fixed;
+}
+.stboxdiv {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+}
+.btn-muted {
+  background: grey;
+}
+.bg-stbox {
+  background: rgb(228, 228, 228);
+}
+.stbox {
+  width: 10rem;
+  height: 12rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.stboxin {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 6%;
+  left: 7%;
+  border-radius: 50%;
+  background: rgb(206, 204, 204);
+}
+.stboxmore {
+  background: #fff;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.4rem 0.4rem;
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+  right: -3.4%;
+  border: 1px solid lightgrey;
+}
+@media screen and (max-width: 768px) {
+  .stboxmore {
+    right: 0%;
+  }
+}
+.togmodes {
+  width: 5rem;
+  height: 0.9rem;
+  position: relative;
+  border-radius: 1rem;
+  background: rgba(211, 211, 211, 0.478);
+}
+.tog_mode {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: -0.25rem;
+  transition: position 1s ease !important;
+}
+.toleft {
+  left: 0;
+  background: teal;
+}
+.toright {
+  right: 0;
+  background: rgb(1, 254, 254);
+}
+.mkuploads > div:hover {
+  background: rgb(236, 236, 236);
+}
+.cs-pointer {
+  cursor: pointer !important;
+}
+.h-80vh {
+  height: 80vh;
+}
+.h-100vh {
+  height: 100vh;
+}
+.smcircle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.w-350 {
+  width: 24rem;
+}
+.ob-cover {
+  object-fit: cover;
+}
+.br-50 {
+  border-radius: 50% !important;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.fs-8 {
+  font-size: 0.9rem !important;
+}
+.fs-9 {
+  font-size: 0.6rem !important;
+}
+.formerr {
+  transition: border 1s ease;
+  border: 1px solid red !important;
+}
+.formerr::placeholder {
+  color: red !important;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.greyscroll::-webkit-scrollbar {
+  width: 7px;
+}
+.greyscroll::-webkit-scrollbar-thumb {
+  background: rgb(124, 121, 121);
+  width: 7px;
+  border-radius: 1rem;
+}
+.greyscroll:hover {
+  overflow-y: auto;
+}
+.timg {
+  width: 3rem;
+  object-position: calc();
+  height: 3rem;
+}
+.mainimg {
+  max-height: 33rem;
+  object-position: center center !important;
+}
+.mainactions > div {
+  padding: 0.7rem 1.5rem;
+}
+.mainactions > div:hover {
+  background: whitesmoke;
+  border-radius: 2rem;
+}
+.frimg {
+  width: 3.5rem;
+  height: 3.5rem !important;
+}
+.frmutual {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.frmutual2 {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.bottom-0 {
+  bottom: 0 !important;
+}
+.right-0 {
+  right: 0 !important;
+}
+.noteimg {
+  bottom: -5%;
+  right: -5%;
+  padding: 1px 6px;
+}
+.hmcontactimg {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+.hmleftlink {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.hmuseraction {
+  position: absolute;
+  top: 8vh;
+  right: 1vw;
+  z-index: 4;
+  position: fixed;
+  width: 23rem;
+}
+.headall1 {
+  width: 58%;
+}
+.headall2 {
+  width: 12rem;
+  position: absolute;
+  top: 15%;
+  right: 3.5%;
+  position: fixed;
+}
+.hmuseraction2 {
+  position: absolute;
+  top: 8vh;
+  right: 1vw;
+  z-index: 4;
+  position: fixed;
+  width: 36rem;
+}
+.hmicon {
+  padding: 5px 6px 5px 8px;
+  text-align: center;
+  margin-right: 8px;
+}
+.bg-aliceblue {
+  background: rgb(224, 239, 240) !important;
+}
+.stboxlogin {
+  width: 10rem;
+  height: 12rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.stboxlogin > div:nth-child(1) {
+  height: 75%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.bg-grey {
+  background: rgb(197, 196, 196) !important;
+}
+.fdcard {
+  height: 23rem !important;
+}
+.fdcard > img {
+  height: 13rem !important;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.716);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spin {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid transparent;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
